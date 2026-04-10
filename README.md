@@ -117,7 +117,7 @@ flowforge/
 
 ---
 
-## Authentication strategy (for supervisor)
+## Authentication strategy 
 
 The auth flag on each HTTP Request node:
 
@@ -178,7 +178,4 @@ Why a single `type` flag:
 ## What to build next
 
 1. More node types: `AIAgent`, `LLMCall` — same pattern as HTTPRequest
-2. Expression evaluator: replace `{{ $json.field }}` at execution time
-3. Workflow execution: run all nodes in `nexts` order, pass data between them
-4. Headers field on HTTP Request node
-5. Query params field on HTTP Request node (GET)
+
