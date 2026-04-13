@@ -1,6 +1,6 @@
 # FlowForge — Full Stack Workflow Builder
 
-React + Express + SQLite monorepo.
+React + Express + NodeJS + MongoDB.
 
 ---
 
